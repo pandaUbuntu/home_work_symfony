@@ -1,0 +1,11 @@
+geek_hub_blog_homepage:
+    path:     /
+    defaults: { _controller: GeekHubBlogBundle:Default:index }
+
+geek_hub_blog_one_parameter:
+    path :    /one/{name}
+    defaults: { _controller: GeekHubBlogBundle:Default:oneParameter, name: User }
+
+geek_hub_blog_two_parameters:
+    path :    /two/{firstName}/{lastName}
+    defaults: { _controller: GeekHubBlogBundle:Default:twoParameters, firstName: User, lastName: Incognito }

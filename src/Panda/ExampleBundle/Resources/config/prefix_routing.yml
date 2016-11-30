@@ -1,0 +1,15 @@
+panda_example_prefix_index:
+    path:     /
+    defaults: { _controller: PandaExampleBundle:Prefix:index }
+
+panda_example_prefix_generate:
+    path:     /{id}
+    defaults: { _controller: PandaExampleBundle:Prefix:generate, id: id }
+    requirements:
+                id: '\w+'
+
+panda_example_prefix_json:
+    path:     /{id}/json
+    defaults: { _controller: PandaExampleBundle:Prefix:json, id: id }
+    requirements:
+                id: '\w+'

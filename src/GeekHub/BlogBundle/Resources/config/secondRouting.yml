@@ -1,0 +1,15 @@
+geek_hub_blog_second_homepage:
+    path:     /
+    defaults: { _controller: GeekHubBlogBundle:Second:homepage }
+
+geek_hub_blog_second_json:
+    path:     /json
+    defaults: { _controller: GeekHubBlogBundle:Second:json }
+
+geek_hub_blog_second_stream:
+    path:     /stream
+    defaults: { _controller: GeekHubBlogBundle:Second:stream }
+
+geek_hub_blog_second_redirect:
+    path:     /redirect
+    defaults: { _controller: GeekHubBlogBundle:Second:redirect }
