@@ -9,7 +9,7 @@ class BlogController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('PalexesExampleBundle:Default:blog_list.html.twig');
+        return $this->render('PandaExampleBundle:Default:blog_list.html.twig');
     }
 
 

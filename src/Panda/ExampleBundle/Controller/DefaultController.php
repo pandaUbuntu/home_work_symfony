@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('PalexesExampleBundle:Default:index.html.twig');
+        return $this->render('PandaExampleBundle:Default:index.html.twig');
     }
 }

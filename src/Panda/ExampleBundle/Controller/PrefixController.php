@@ -19,7 +19,7 @@ class PrefixController extends Controller
      */
     public function generateAction($id)
     {
-        $url = $this->generateUrl('palexes_example_prefix_generate', array('id' => '2'));
+        $url = $this->generateUrl('panda_example_prefix_generate', array('id' => '2'));
         return new Response(
             "<a href=\"$url\">This is generate link with id - \"$id\", after click will use another controller</a>");
     }

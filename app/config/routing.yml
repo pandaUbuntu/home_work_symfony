@@ -1,8 +1,8 @@
-geek_hub_blog:
-    resource: "@GeekHubBlogBundle/Resources/config/routing.yml"
+panda_blog:
+    resource: "@PandaExampleBundle/Resources/config/routing.yml"
     prefix:   /
 
-geek_hub_blog2:
-    resource: "@GeekHubBlogBundle/Resources/config/secondRouting.yml"
+panda_blog2:
+    resource: "@PandaExampleBundle/Resources/config/secondRouting.yml"
     prefix:   /second
 
