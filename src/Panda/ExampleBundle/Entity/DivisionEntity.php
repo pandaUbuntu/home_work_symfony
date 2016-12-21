@@ -36,7 +36,7 @@ class DivisionEntity
     /**
      * @var int
      *
-     * 
+     *
      */
     private $number;
 
